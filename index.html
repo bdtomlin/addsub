@@ -2,8 +2,24 @@
 <html>
   <head>
     <title>addsub</title>
+    <link href="app.css" rel="stylesheet">
   </head>
   <body>
-    test
+    <div class="container">
+      <h1>Adder / Subtractor</h1>
+      <p>
+        X = <input type="text" name="x" id="x">
+      </p>
+      <p>
+        Y = <input type="text" name="y" id="y">
+      </p>
+      <p>
+        <input type="button" class="addsubButton" value="+" id="add">
+        <input type="button" class="addsubButton" value="-" id="subtract">
+      </p>
+      <p id="error-message">We're doing our best here, can you help us out by entering numbers for X and Y?</p>
+      <div id="result"></div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>

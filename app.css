@@ -1,0 +1,40 @@
+body {
+  background: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+
+h1 {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.container {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 20px 40px;
+  text-align: center;
+  width: 400px;
+}
+
+input[type="text"] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 2px 5px;
+  width: 100px;
+}
+
+#error-message {
+  background: #F5D5D5;
+  border: 1px solid #DEA8A8;
+  color: #D3000B;
+  display: none;
+  padding: 5px;
+}
